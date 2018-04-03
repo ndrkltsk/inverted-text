@@ -37,11 +37,15 @@ class InvertedText {
 
     for (var i = 0; i < textNodes.length; i++) {
       let node = textNodes[i];
-
       node.style.color = 'transparent';
+      node.style.position = 'absolute';
       node.style.backgroundImage = 'url(' + img_src_url + ')';
       node.style.webkitBackgroundClip = 'text';
       node.style.filter = 'invert('+this.invert+'%) grayscale('+this.grayscale+'%) contrast('+this.contrast+'%) saturate('+this.saturate+')';
+
+
+
+      console.log(node.style.position);
 
       let img = new Image();
       img.src = img_src_url;
@@ -51,14 +55,12 @@ class InvertedText {
 
       let node_bg_x = node.offsetLeft, node_bg_y = node.offsetTop;
 
-      console.log(node_bg_x, node_bg_y, wrapper_bg_x, wrapper_bg_y);
 
       if(wrapper_bg_data.length > 0) {
         node_bg_x -= wrapper_bg_x || 0;
         node_bg_y -= wrapper_bg_y || 0;
       }
 
-      console.log(node_bg_x, node_bg_y, wrapper_bg_x, wrapper_bg_y);
 
 
 
