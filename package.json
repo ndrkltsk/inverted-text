@@ -1,0 +1,11 @@
+{
+  "name": "inverted-text",
+  "version": "0.0.1",
+  "description": "Set inverted background to text on images",
+  "main": "dist/inverted-text.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andriy Klitsuk <ask@andriy.eu> (https://andriy.eu)",
+  "license": "ISC"
+}
