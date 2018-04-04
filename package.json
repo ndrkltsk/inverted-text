@@ -10,7 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/ndrkltsk/inverted-text.git"
   },
-  "keywords": ["text", "image", "inverted", "background", "readable", "accessibility"],
+  "keywords": [
+    "text",
+    "image",
+    "inverted",
+    "background",
+    "readable",
+    "accessibility"
+  ],
   "author": "Andriy Klitsuk <ask@andriy.eu> (https://andriy.eu)",
   "license": "MIT",
   "bugs": {
