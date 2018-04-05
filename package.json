@@ -1,6 +1,6 @@
 {
   "name": "inverted-text",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Set custom inverted background to text on images",
   "main": "dist/inverted-text.js",
   "scripts": {
