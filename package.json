@@ -1,28 +1,6 @@
 {
-  "_from": "inverted-text",
-  "_id": "inverted-text@1.0.2",
-  "_inBundle": false,
-  "_integrity": "sha512-sfLgYMimKLgAg2XXfDFKeSRPttTBfLYVF+dcZot9YtLaZxDs/TWfKM8Rg2KKq5f3pkVPNYR1VUqgRvKMg3lCuA==",
-  "_location": "/inverted-text",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "inverted-text",
-    "name": "inverted-text",
-    "escapedName": "inverted-text",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/inverted-text/-/inverted-text-1.0.1.tgz",
-  "_shasum": "3321a4c4fa6ad9e5682bcf34919f23cd850c71dd",
-  "_spec": "inverted-text",
-  "_where": "/var/www/workspace/experiments/inverted-text-example",
+  "name": "inverted-text",
+  "version": "1.0.2",
   "author": {
     "name": "Andriy Klitsuk",
     "email": "ask@andriy.eu",
@@ -52,6 +30,5 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "version": "1.0.1"
+  }
 }
