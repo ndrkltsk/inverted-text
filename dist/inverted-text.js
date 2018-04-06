@@ -2,20 +2,26 @@
 
 class InvertedText {
 
+
   constructor(options, callback, everyResize) {
+
+    this.image_wrapper_id = 'img-wrapper';
+    this.invert = 100;
+    this.saturate = 100;
+    this.contrast = 1000;
+    this.grayscale = 200;
+
     this.options = options;
     this.callback = callback;
     this.everyResize = everyResize;
 
     if(options != undefined) {
-      this.image_wrapper_id = options.image_wrapper_id || 'img-wrapper';
-      this.invert = options.invert || 100;
-      this.saturate = options.saturate || 100;
-      this.contrast = options.contrast || 1000;
-      this.grayscale = options.grayscale || 200;
+      this.image_wrapper_id = options.image_wrapper_id || this.image_wrapper_id;
+      this.invert = options.invert || this.invert;
+      this.saturate = options.saturate || this.saturate;
+      this.contrast = options.contrast || this.contrast;
+      this.grayscale = options.grayscale || this.grayscale;
     }
-
-    console.log(this-image_wrapper_id);
 
     window.addEventListener("load", () => {
       this.bidibibodibibu(options, this.callback);

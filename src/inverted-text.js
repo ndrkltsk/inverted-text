@@ -15,8 +15,6 @@ class InvertedText {
       this.grayscale = options.grayscale || 200;
     }
 
-    console.log(this-image_wrapper_id);
-
     window.addEventListener("load", () => {
       this.bidibibodibibu(options, this.callback);
     }, false);

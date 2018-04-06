@@ -1,15 +1,40 @@
 {
-  "name": "inverted-text",
-  "version": "1.0.1",
+  "_from": "inverted-text",
+  "_id": "inverted-text@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-sfLgYMimKLgAg2XXfDFKeSRPttTBfLYVF+dcZot9YtLaZxDs/TWfKM8Rg2KKq5f3pkVPNYR1VUqgRvKMg3lCuA==",
+  "_location": "/inverted-text",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "inverted-text",
+    "name": "inverted-text",
+    "escapedName": "inverted-text",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/inverted-text/-/inverted-text-1.0.1.tgz",
+  "_shasum": "3321a4c4fa6ad9e5682bcf34919f23cd850c71dd",
+  "_spec": "inverted-text",
+  "_where": "/var/www/workspace/experiments/inverted-text-example",
+  "author": {
+    "name": "Andriy Klitsuk",
+    "email": "ask@andriy.eu",
+    "url": "https://andriy.eu"
+  },
+  "bugs": {
+    "url": "https://github.com/ndrkltsk/inverted-text/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "Set custom inverted background to text on images",
-  "main": "dist/inverted-text.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ndrkltsk/inverted-text.git"
-  },
+  "homepage": "https://github.com/ndrkltsk/inverted-text#readme",
   "keywords": [
     "text",
     "image",
@@ -18,10 +43,15 @@
     "readable",
     "accessibility"
   ],
-  "author": "Andriy Klitsuk <ask@andriy.eu> (https://andriy.eu)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ndrkltsk/inverted-text/issues"
+  "main": "dist/inverted-text.js",
+  "name": "inverted-text",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndrkltsk/inverted-text.git"
   },
-  "homepage": "https://github.com/ndrkltsk/inverted-text#readme"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1"
 }
